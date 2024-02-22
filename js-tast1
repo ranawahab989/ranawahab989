@@ -1,0 +1,65 @@
+var num1 = +prompt("Enter your 1st value")
+var num2 = +prompt("Enter your 2nd value")
+
+
+var add = num1 + num2;
+var minus = num1 - num2;
+var sub = num1 * num2;
+var divi = num1 / num2;
+
+
+document.write(
+
+"<table border='1px solid black'>"+
+"<tr>"+
+"<th>"+"ADDITION"+"</th>"
++"<th>"+"MINUS"+"</th>"
++"<th>"+"SUB"+"</th>"
++"<th>"+"DIVI"+"</th>"
++"</tr>"+
+
+"<tr>"+
+"<td>"+add+"</td>"
++"<td>"+minus+"</td>"
++"<td>"+sub+"</td>"
++"<td>"+divi+"</td>"
++"</tr>"
+
++"<table>")
+
+
+
+var a = 3;
+var b = 9;
+var c = 6;
+
+var result = a - b * c +(a+b)+c;
+console.log(result);
+
+
+
+var num = 5;
+num--
+num = num + 1
+console.log(num);
+
+
+
+var num1 = 4;
+var num2 = 9;
+
+var res = num1++ +  num1++ + ++num2 + num2++ + num1++
+
+console.log(res);
+
+
+
+
+
+
+var num1 = 7;
+var num2 = 5;
+var num3 = 9;
+var res = --num1 +  --num2 + num3++ + num3-- + num1;
+
+console.log(res);
